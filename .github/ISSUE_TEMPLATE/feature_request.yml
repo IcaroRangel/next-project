@@ -1,0 +1,18 @@
+name: 'Feature Request'
+description: 'Request a feature or enhancement'
+labels: ['needs triage']
+body:
+  - type: 'markdown'
+    attributes:
+      value: |
+        Thanks for filing an issue 😄!
+
+        Please search open/closed issues before submitting. Someone
+        might have asked the same thing before 😉!
+  - type: 'textarea'
+    id: 'description'
+    attributes:
+      label: 'Description'
+      description: 'Please describe your request in one or two sentences.'
+    validations:
+      required: true
